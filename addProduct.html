@@ -115,6 +115,7 @@
         contract = new ethers.Contract("0xF3e7137fa354CFf86a72466CAe8727dd1a062F3c",abi,signer);
         res = await contract.add_product_details(ui,un);
         console.log(res);
+	console.log("hello");
  
         hash = res["hash"];
         console.log(hash);
